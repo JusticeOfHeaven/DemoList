@@ -1,0 +1,6 @@
+1、创建 hello-jni.c
+2、创建 Android.mk
+3、在 NdkMainActivity里创建本地方法
+4、在 build.gradle 中配置指导源文件编译方式以及配置编译选项
+5、在 build.gradle 中配置native的编译脚本路径
+6、在 NdkMainActivity 调用 System.loadLibrary("hello-jni");
